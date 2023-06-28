@@ -35,4 +35,4 @@ const StyledButton = styled.button`
   cursor: pointer;
 `;
 
-export {Container,Container2,StyledButton}
+export { Container, Container2, StyledButton };
