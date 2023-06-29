@@ -1,7 +1,18 @@
 import { produce } from "immer";
 
 export const initialState = {
-  todos: [],
+  todos: [{
+    id: 1,
+    title: "리액트 강의보기",
+    body: "챕터 1부터 챕터 12까지 학습",
+    done: false
+  },
+    {
+      id: 2,
+      title: "점심 먹기",
+      body: "점심 뭐먹지..?",
+      done: true
+    }],
 };
 
 export const ADD_TODOS_REQUEST = "ADD_TODOS_REQUEST";
