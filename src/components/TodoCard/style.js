@@ -11,6 +11,7 @@ export const TodoContainer = styled.div`
   border-radius: 12px;
   padding: 12px 24px 24px;
   width: 270px;
+  margin-bottom: 12px;
 `;
 
 export const ButtonSet = styled.div`

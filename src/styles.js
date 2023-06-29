@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   body {
@@ -12,27 +12,16 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
-export const Form = styled.form`
-  background-color: #eee;
-  border-radius: 12px;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 30px;
-  align-items: center;
-  display: flex;
-  gap: 20px;
-`;
-
 export const LayOut = styled.div`
   margin: 0 auto;
   max-width: 1200px;
-  min-width: 800px
+  min-width: 800px;
 `;
 
 export const InputGroup = styled.div`
   align-items: center;
   display: flex;
-  gap: 20px
+  gap: 20px;
 `;
 
 export const Label = styled.label`
@@ -103,15 +92,3 @@ export const CompleteButton = styled(GenericButton)`
   background-color: #fff;
   border: 2px solid green;
 `;
-
-export const ListContainer = styled.div`
-  padding: 0 24px;
-`;
-
-export const ListWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-`;
-
-
