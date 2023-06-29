@@ -36,5 +36,3 @@ export const CompleteButton = styled(GenericButton)`
   background-color: #fff;
   border: 2px solid green;
 `;
-
-export {ListWrapper, TodoContainer, ButtonSet ,DeleteButton , CompleteButton}
